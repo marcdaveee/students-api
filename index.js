@@ -1,6 +1,6 @@
 // import the libraries
 const express = require("express");
-const axios = require("express");
+const axios = require("axios");
 const cors = require("cors");
 const port = 8000;
 
