@@ -75,7 +75,7 @@ app.put("/students/:id", async (req, res) => {
 });
 
 // Delete Student Endpoint
-app.put("/students/:id", async (req, res) => {
+app.delete("/students/:id", async (req, res) => {
   try {
     const { id } = req.params;
     const student = await axios.delete(
