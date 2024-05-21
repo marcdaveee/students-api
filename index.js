@@ -48,7 +48,7 @@ app.get("/students/:id", async (req, res) => {
 
 app.post("/students", async (req, res) => {
   try {
-    const { studentData } = req.body;
+    const studentData = req.body;
 
     const createdStudent = await axios.post(
       "https://json-server-40ay.onrender.com/students",
